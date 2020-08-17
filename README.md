@@ -36,7 +36,7 @@ rm -rf pub/static/frontend/
 rm -rf var/view_preprocessed/css/frontend/
 php bin/magento cache:clean
 ```
-
+------------
 Solutions
 ------------
 
@@ -82,4 +82,6 @@ and changing the lines of code below:
     <span translate="'Next'"/>
 </a>
  ```
-
+------------
+#screenshot of final result
+![alt text](https://raw.githubusercontent.com/baracatuemura/magento_test_task3/master/_info/image5.png)
