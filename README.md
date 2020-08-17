@@ -11,7 +11,6 @@ Please also attach the documented installation process and the user with general
 So we will be super sure to understand them correctly.
 
 ------------
-
 Theme Installation 
 ------------
 
@@ -83,5 +82,6 @@ and changing the lines of code below:
 </a>
  ```
 ------------
-#screenshot of final result
+Screenshot of final result
+------------
 ![alt text](https://raw.githubusercontent.com/baracatuemura/magento_test_task3/master/_info/image5.png)
