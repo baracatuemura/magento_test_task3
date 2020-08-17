@@ -28,7 +28,7 @@ php bin/magento setup:upgrade
 ```
 Now you activate the Baracat/base Theme under `Content -> Design -> Configuration..`
 
-![alt text](https://github.com/baracatuemura/magento_test_task3/master/#info/image1.png?raw=true)
+![alt text](https://github.com/baracatuemura/magento_test_task3/master/_info/image1.png?raw=true)
 
 Lastly clear Magento generated suff and caches:
 ```
@@ -48,7 +48,7 @@ This task can be performed in two ways:
  Go to `Store -> Configuration -> Customer -> Customer Configuration..`
  On tab `Name and Address Options` and choose the options you want hide.
 
-![alt text](https://github.com/baracatuemura/magento_test_task3/master/#info/image4.png?raw=true)
+![alt text](https://github.com/baracatuemura/magento_test_task3/master/_info/image4.png?raw=true)
 
 
 2. By Layout XML file
@@ -57,11 +57,11 @@ This task can be performed in two ways:
  ```
 <item name="visible" xsi:type="boolean">false</item>
  ```
-![alt text](https://github.com/baracatuemura/magento_test_task3/master/#info/image2.png?raw=true)
+![alt text](https://github.com/baracatuemura/magento_test_task3/master/_info/image2.png?raw=true)
 
 ### 2. All other field names, which should be written vice versa, like Name, should be emaN.
  To make this item I used the theme translation file
-![alt text](https://github.com/baracatuemura/magento_test_task3/master/#info/image3.png?raw=true)
+![alt text](https://github.com/baracatuemura/magento_test_task3/master/_info/image3.png?raw=true)
 
 
 ### 3. And the next step button should redirect back to the cart.
