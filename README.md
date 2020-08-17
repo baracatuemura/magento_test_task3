@@ -81,6 +81,8 @@ and changing the lines of code below:
     <span translate="'Next'"/>
 </a>
  ```
+![alt text](https://raw.githubusercontent.com/baracatuemura/magento_test_task3/master/_info/image6.png)
+
 ------------
 Screenshot of final result
 ------------
