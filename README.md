@@ -37,7 +37,7 @@ rm -rf var/view_preprocessed/css/frontend/
 php bin/magento cache:clean
 ```
 
-Solution - 
+Solutions
 ------------
 
 ### 1. Remove 2 random fields from the Shipping step.
