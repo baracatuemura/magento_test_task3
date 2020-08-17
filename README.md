@@ -12,7 +12,7 @@ So we will be super sure to understand them correctly.
 
 ------------
 
-Installation - 
+Theme Installation 
 ------------
 
 ### 1. Using Zip File
@@ -45,32 +45,39 @@ Solutions
 This task can be performed in two ways:
 
 1. By Control Panel
- Go to `Store -> Configuration -> Customer -> Customer Configuration..`
- On tab `Name and Address Options` and choose the options you want hide.
+
+Go to `Store -> Configuration -> Customer -> Customer Configuration..`
+On tab `Name and Address Options` choose the options you want hide.
 
 ![alt text](https://raw.githubusercontent.com/baracatuemura/magento_test_task3/master/_info/image4.png)
 
 
 2. By Layout XML file
- Removed using checkout_index_index.xml file and add node below:
 
- ```
+Removed using checkout_index_index.xml file and add node below:
+
+```
 <item name="visible" xsi:type="boolean">false</item>
- ```
+```
 ![alt text](https://raw.githubusercontent.com/baracatuemura/magento_test_task3/master/_info/image2.png)
 
 ### 2. All other field names, which should be written vice versa, like Name, should be emaN.
- To make this item I used the theme translation file
+
+To make this item I used the theme translation file en_US.csv
+
 ![alt text](https://raw.githubusercontent.com/baracatuemura/magento_test_task3/master/_info/image3.png)
 
 
 ### 3. And the next step button should redirect back to the cart.
+
 To make this item I overide core template coping the file into the created theme folder:
-	Magento_Checkout -> web -> template -> shipping.html
+```
+Magento_Checkout -> web -> template -> shipping.html
+```
 
 and changing the lines of code below:
 
- ```
+```
 <a class="button action continue primary viewcart" href="cart">
     <span translate="'Next'"/>
 </a>
